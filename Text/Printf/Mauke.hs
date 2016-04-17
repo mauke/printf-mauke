@@ -40,12 +40,9 @@ module Text.Printf.Mauke (
     HPrintfType
 ) where
 
-import Prelude hiding (putStr)
-
 import Text.Printf.Mauke.Internal
 
-import System.IO hiding (putStr, hPutStr)
-import System.IO.UTF8
+import System.IO
 
 -- | Format a variable number of arguments according to a format string,
 -- similar to (s)printf in Perl. The return value is either a 'String' or
