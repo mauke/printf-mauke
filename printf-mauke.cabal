@@ -10,7 +10,7 @@ Category:        Text
 Synopsis:        A Perl printf like formatter.
 
 Extra-Source-Files:
-  Changes
+  Changes.md
 
 Source-Repository head
   Type:     git
